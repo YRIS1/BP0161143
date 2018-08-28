@@ -1,0 +1,476 @@
+
+
+/*the body*/
+body  {
+background-color:#FFFFFF; /*white*/
+
+font-family: "Lato", sans-serif;
+letter-spacing: 0.1em;
+}
+
+
+
+
+/*topline black under the navigationbar*/
+.vertical-line{
+height: 1px; 
+width: 100%;
+background-color: #000000; /*black*/ 
+
+ 
+}
+
+
+
+/*wrapper for all pages*/
+.wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+/*the logo at the top*/
+.img-yris {
+width: 370px;
+position: relative;
+margin: auto;
+display: block;
+position: relative;
+height: 160px;
+
+}
+
+
+
+/*the pink color at the top*/
+header {
+background-color: #ffdfdf; /*lightpink*/
+height: 180px;
+text-align: center;
+padding-top: 20px; 
+font-family: "Lato", sans-serif;
+margin-top: 20px;
+}
+
+/*****homepage******/
+
+/* video for homepage */
+#myVideo {
+
+position: relative; 
+width: 100%;
+height: 100%;
+float: center;
+padding: -60px;  
+margin: auto;
+
+}
+
+
+
+
+
+/* welcome for home page*/
+.homepage {
+color: #ffb3d9;
+text-align: center; 
+width: auto; 
+letter-spacing: 0.1em;
+font-weight: bold;
+}
+
+
+.yrisgirls {
+color: #000000; /*black*/
+text-align: left;
+padding: 3px; 
+margin: 60px; 
+margin-top: 10px; 
+letter-spacing: 0.1em;
+font-size: 15px; 
+background-color: #ffdfdf; 
+
+} 
+
+
+.footnote {
+color: #000000; /*black*/
+text-align: center; 
+padding: 3px; 
+margin: 60px; 
+letter-spacing: 0.1em;
+margin-top: -10px; 
+font-size: 15px; 
+background-color: #ffdfdf; 
+
+} 
+
+
+
+
+
+/************shop page*********/
+
+
+/*h1 for shop*/
+.shop {
+color: black; 
+letter-spacing: 0.1em;
+text-align: center; 
+height: 50px; 
+
+}
+
+
+/*p welcome for shop page*/
+.welcome {
+color: black;
+text-align: center; 
+width: auto; 
+letter-spacing: 0.1em;
+padding: 1px; 
+margin: 60px; 
+margin-top: 10px; 
+
+}
+
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+
+
+.fa {
+  padding: 10px;
+  font-size: 80px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-instagram {
+  background: #ff80bf;
+  color: black;
+}
+
+
+
+.provide {
+color:black; 
+letter-spacing: 0.1em;
+text-align: left; 
+font-weight: bold;
+padding: 8px; 
+margin: 10px; 
+} 
+
+.clothing {
+color: purple; 
+letter-spacing: 0.1em;
+padding: 8px; 
+margin: 10px; 
+}
+
+
+.note {
+color:black; 
+letter-spacing: 0.1em;
+background-color: yellow; 
+margin: 80px; 
+padding: 40px; 
+font-weight: bold;
+}
+
+
+
+/*********instagram*****/
+
+
+/*h1 for instagram*/
+.instagram {
+color: black; 
+letter-spacing: 0.1em;
+height: 50px; 
+text-align: center; 
+
+}
+
+/*p after h1 on instagram page*/
+.upcoming {
+color: black;
+text-align: center; 
+width: auto; 
+letter-spacing: 0.1em;
+padding: 1px; 
+margin: 60px; 
+margin-top: 10px; 
+
+}
+
+
+
+ /* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: white; 
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: white; 
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: white; 
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ffdfdf;  
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;} 
+
+
+
+
+
+
+
+
+
+
+
+
+/********aboutus*****/
+
+/*about us*/
+.whoarewe {
+color:black;
+letter-spacing: 0.1em;
+text-align: center; 
+height: 40px; 
+letter-spacing: 0.1em;
+
+}
+
+
+/*the story*/
+.story  {
+color:black;
+letter-spacing: 0.1em;
+text-align: left;
+background-color:#fff0b3; 
+padding: 1px; 
+margin: 60px; 
+margin-top: 10px; 
+ 
+}
+
+/*about us*/
+.whythename {
+color:black;
+letter-spacing: 0.1em;
+text-align: center; 
+height: 40px; 
+letter-spacing: 0.1em;
+
+
+}
+
+/*theidea*/
+.idea  {
+color:black;
+letter-spacing: 0.1em;
+text-align: left;
+background-color: #fff0b3;
+padding: 1px; 
+margin: 60px; 
+margin-top: 10px; 
+
+}
+
+
+.shipping {
+color:black;
+letter-spacing: 0.1em;
+text-align: center; 
+height: 40px; 
+letter-spacing: 0.1em;
+}
+
+.delivery {
+color:black;
+letter-spacing: 0.1em;
+text-align: left;
+background-color: #fff0b3;
+padding: 1px; 
+margin: 60px; 
+margin-top: 10px; 
+}
+
+
+
+.policy {
+color:black;
+letter-spacing: 0.1em;
+text-align: center;
+background-color: yellow;
+padding: 1px; 
+margin: 60px; 
+margin-top: 10px; 
+font-weight: bold;
+}
+
+
+
+/*********navigation*****************/
+
+
+
+/* Add a black background color to the top navigation */
+.desktop-nav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    text-align: center; 
+   
+}
+
+
+/* Style the links inside the navigation bar */
+.desktop-nav a {
+    display: inline-block;
+    color: #333333;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+width: 25%; 
+
+
+}
+
+/* Change the color of links on hover */
+.desktop-nav a:hover {
+    background-color: #FFFFFF;
+    color: black;
+    
+}
+
+/* Add a color to the active/current link */
+.desktop-nav a.active {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+
+
+
+/******************************************************************/
+
+
+
+
+/*footer for all pages at the bottom*/
+.footer {
+
+    padding: 1px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: black; /* lightpink background */
+    width: auto; 
+    margin-top: 300px;
+    color: white; 
+    font-family: "Lato", sans-serif;
+ 
+}
+
+ 
+ /*************************/
+ 
+ 
+ 
